@@ -1,0 +1,56 @@
+:root {
+    /* --neongreen:lawngreen; */
+    --teal:#22A699;
+    --yellow:#F2BE22;
+    --orange:#F29727;
+    --darkOrange:#F24C3D;
+    --pearl:#E2DFD2;
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    padding:0;
+    /* margin:15px; */
+    background-color: var(--pearl);
+}
+
+header {
+    background-color: var(--teal);
+}
+
+.resumeBorder {
+    border-bottom:2px solid black;
+}
+.aboutme {
+    margin:1em 0;
+    font-weight: bold;
+}
+.bio {
+    margin:0 10%;
+    font-size: 1.25rem;
+    border-bottom: 3px dotted black;
+    padding-bottom:2em;
+}
+.skillset {
+    padding-top: 1em;
+    font-weight: bold;
+}
+.ulHeader {
+    margin:1em 0;
+
+}
+ul {
+    list-style: none;
+}
+.mePic {
+    max-width: 40%;
+}
+
+
+/* projects */
+.card {
+    background-color: var(--pearl);
+}
